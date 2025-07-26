@@ -1,0 +1,19 @@
+{
+  "id": "instructions_search_match_by_description",
+  "name": "Instructions search match by description",
+  "version_name": "1.0",
+  "version_code": 1,
+  "author": "Kelno",
+  "homepage": "",
+  "description": "Allows search in the Behavior editor to match instructions by description.",
+  "packages": {
+    "Data": {
+      "name": "Data",
+      "entry": "ui.lua",
+      "dependencies": [
+        "Main/UI"
+      ],
+      "type": "Addon"
+    }
+  }
+}
